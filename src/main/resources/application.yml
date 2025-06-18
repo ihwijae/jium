@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: jium
+
+  datasource:
+    # MariaDB 드라이버 클래스 이름
+    driver-class-name: org.mariadb.jdbc.Driver 
+    # 접속할 DB 서버 주소 (localhost의 3306 포트에 있는 jium 데이터베이스)
+    url: jdbc:mariadb://localhost:3306/jium 
+    # DB 접속 계정
+    username: root # 👈 본인의 DB 계정으로 변경
+    # DB 접속 비밀번호
+    password: 971024 # 👈 본인의 DB 비밀번호로 변경

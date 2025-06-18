@@ -1,0 +1,109 @@
+.company-page {
+  padding: 20px;
+  max-width: 100%;
+  margin: 0;
+}
+
+.company-page h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.table {
+  margin-top: 20px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.table th {
+  background-color: #f8f9fa;
+  padding: 8px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #dee2e6;
+  white-space: nowrap;
+}
+
+.table td {
+  padding: 8px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #dee2e6;
+}
+
+.table tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+.text-danger {
+  color: #dc3545 !important;
+}
+
+.table-responsive {
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* 체크박스 스타일 */
+.table input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+/* 공사명 열 스타일 */
+.table td:nth-child(4) {
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 400px;
+}
+
+.btn-sm {
+  margin: 0 2px;
+}
+
+/* 컨테이너 최대 너비 설정 */
+.container {
+  max-width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* 1년 초과 거래 */
+.recent-transaction {
+    background-color: #cce5ff !important;
+}
+
+/* 1년 미만 거래 */
+.year-transaction {
+    background-color: #d4edda !important;
+}
+
+/* hover 효과 유지 */
+.table-striped tbody tr.recent-transaction:hover,
+.table-striped tbody tr.year-transaction:hover {
+  background-color: #e2e6ea !important;
+}
+
+/* 체크된 행의 스타일 */
+.selected-row {
+  background-color: #fff3cd !important;
+}
+
+.selected-row:hover {
+  background-color: #e2e6ea !important;
+}
+
+/* 페이지네이션 스타일 */
+.pagination {
+  margin-bottom: 0;
+}
+
+.page-link {
+  cursor: pointer;
+} 
